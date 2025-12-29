@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Сайт о s1mple</title>
+    <link rel="icon" href="фавикон.png" type="image/x-icon">
+    <meta name="description" content="Сайт о киберспортсмене Александре Костылеве. Его достижения и титулы.">
+    <meta name="keywords" content="Александр,s1mple,cs2,cs go, AWP,Deagle">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("фон.webp");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+        }
+        .careta {
+            max-width: 200px;
+            height: auto;
+        }
+        .class {
+            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        button {
+            background-color: rgb(237, 171, 83);
+            color: white;
+            flex:1;
+            width: 100%;
+            padding: 10px;
+            border-radius: 15px;
+            transition: transform 0.4s ease;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        button:hover {
+            transform: scale(1.03);
+            background-color: rgb(247, 190, 114);
+        }
+        main {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .gmail {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            width: 100%;
+        }
+        .pochta {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 1px solid black;
+            border-radius: 30px;
+            transition: transform 0.3s ease;
+        }
+        .info {
+            color: black;
+            max-width: 600px;
+            backdrop-filter: blur(10px);
+            border: 1px solid white;
+            padding: 20px;
+            font-size: 20px;
+            border-radius: 25px;
+        }
+        .spam {
+            margin-top: 40px;
+            width: 100%;
+            min-height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            background: linear-gradient(to right,rgb(155, 171, 50), rgb(123, 135, 46), rgb(211, 217, 173));
+            gap: 20px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .photo {
+            width: 120px;
+            height: auto;
+        }
+        section {
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .vid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .car {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 20px;
+        }
+        footer {
+            width: 100%;
+            background: linear-gradient(to right,rgb(155, 171, 50), rgb(123, 135, 46), rgb(211, 217, 173));
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            align-items: center;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            display: block;
+        }
+        .end2 {
+            font-size: 20px;
+        }
+
+        /* 📱 Мобильные устройства */
+        @media (max-width: 768px) {
+            .careta {
+                max-width: 150px;
+            }
+            button {
+                font-size: 18px;
+            }
+            .info {
+                font-size: 18px;
+            }
+            .spam {
+                font-size: 40px;
+                flex-direction: column;
+            }
+            .photo {
+                width: 90px;
+            }
+            .car {
+                max-width: 90%;
+            }
+            footer {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="лого.PNG" class="careta" alt="Логотип">
+    </header>
+    <div class="class">
+        <button>Demo</button>
+        <button>Настройки</button>
+    </div>
+    <main>
+        <div class="gmail">
+            <img src="просашу.JFIF" class="pochta" alt="Фото Александра">
+            <div class="info">
+                <h3>Личные достижения Александра Костылёва:</h3>
+                <ul>
+                    <li>29 декабря 2016 года портал RedBull назвал Александра «s1mple» Костылева лучшим игроком 2016 года.</li>
+                    <li>Стал лучшим в номинации «Момент года» по версии ESPN Esports Awards в 2016 году.</li>
+                    <li>12 ноября 2018 года получил награду «Киберспортсмен года на PC» на Esports Awards.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <div class="spam">
+        <img src="Simple.webp" class="photo" alt="Simple">
+        <p>Simple</p>
+    </div>
+    <section>
+        <div class="vid">
+            <img src="картинка1.jfif" class="car" alt="Фото 1">
+            <img src="картинка2.jfif" class="car" alt="Фото 2">
+            <img src="картинка3.jfif" class="car" alt="Фото 3">
+        </div>
+    </section>
+    <footer>
+        <div class="end1">
+            <p><a href="https://www.instagram.com/?hl=ru" target="_blank">Instagram</a></p>
+            <p><a href="https://web.telegram.org/a/" target="_blank">Telegram</a></p>
+        </div>
+        <div class="end2">
+            <p>Лабораторная работа №7</p>
+            <p>Выполнил Александров Александр Михайлович</p>
+        </div>
+    </footer>
+</body>
+</html>
